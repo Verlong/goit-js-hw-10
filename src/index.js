@@ -61,9 +61,10 @@ refs.searchCountry.addEventListener(
                                   ).join(', ')}</p> 
                                 </div>`;
             refs.countryInfo.innerHTML = markupCard;
-          } else {
-            throw new Error('Oops, there is no country with that name');
           }
+          //   else {
+          //     throw new Error('Oops, there is no country with that name');
+          //   }
         })
         .catch(error => {
           Notiflix.Notify.failure(error.message);
