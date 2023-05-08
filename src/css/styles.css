@@ -18,3 +18,79 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+/* ============================================== */
+#search-box {
+  padding: 8px;
+  max-width: 320px;
+  margin: 0 auto 16px;
+  display: block;
+  text-align: center;
+}
+
+/* Стили для .country-list */
+.country-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.country-list li {
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* .country-list img {
+  width: 120px;
+  height: auto;
+} */
+
+.country-list h3 {
+  margin-top: 8px;
+}
+
+/* Стили для .country-info */
+.country-info {
+  background-color: #f5f5f5;
+  padding: 16px;
+  margin: 16px auto;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.country-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* .country-card img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 16px;
+} */
+
+.country-card h1 {
+  margin-top: 0;
+}
+
+.country-card p {
+  margin: 8px 0;
+}
+
+.flags-img {
+  width: 60px;
+}
+
+.flag-img {
+  width: 360px;
+}
